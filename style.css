@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: rgb(234, 227, 255);
+    
+}
+
+.place{
+	 position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+}
+
+.align {
+	text-align: left;
+
+
+	background-color: rgb(203, 187, 250);
+	height: 800px;
+	width: 497px;
+	border: solid rgb(150, 130, 255) 2px;
+	
+}
+
+
+.align-top{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+
+.casa{
+display: inline-block;
+text-align: left;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.casa input{
+	height: 30px;
+	width: 225px;
+	border-radius: 8px;
+	background-color: rgb(234, 227, 255);
+}
+
+.casa-radio-0{
+	margin-top: 20px;
+	
+}
+
+.casa-radio{
+	margin-left: 20px;	
+}
+
+.selecione{
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+.selecione select{
+	margin-top: 5px;
+	border-radius: 8px;
+	height: 30px;
+	background-color: rgba(234, 227, 255);
+}
+
+.box-0{
+	margin-top: 10px;
+}
+
+.box{
+	margin-left: 20px;
+	display: inline-block;	
+}
+
+.box input{
+	background-color: rgb(234, 227, 255);
+}
+
+.box-00{
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.text{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.text textarea{
+	background-color: rgb(234, 227, 255);
+	height: 120px;
+	width: 400px;
+	resize: none;
+	border-radius: 8px;
+}
+
+.text textarea{
+margin-top: 10px;
+}
+
+.ok{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.ok input{
+	height: 30px;
+	width: 120px;
+	border-radius: 8px ;
+	background-color: rgb(234, 227, 255);
+}
